@@ -1,0 +1,15 @@
+/* Hide the scrollbar but keep the scroll functionality */
+#transaction-list {
+    overflow-y: scroll; /* Enable scrolling */
+}
+
+/* For WebKit browsers (Chrome, Safari, Edge) */
+#transaction-list::-webkit-scrollbar {
+    width: 0; /* Set the width to 0 to hide the scrollbar */
+    height: 0; /* Set the height to 0 to hide the scrollbar */
+}
+
+/* For Firefox */
+#transaction-list {
+    scrollbar-width: none; /* Hide scrollbar */
+}
